@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegates\Photo.cs" />
+    <Compile Include="Delegates\PhotoFilters.cs" />
+    <Compile Include="Delegates\PhotoProcessor.cs" />
+    <Compile Include="Generics\Book.cs" />
+    <Compile Include="Generics\BookList.cs" />
+    <Compile Include="Generics\DiscountCalculator.cs" />
+    <Compile Include="Generics\List.cs" />
+    <Compile Include="Generics\Nullable.cs" />
+    <Compile Include="Generics\Product.cs" />
+    <Compile Include="Generics\Sample.cs" />
+    <Compile Include="Generics\Utilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
