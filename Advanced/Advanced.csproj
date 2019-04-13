@@ -54,6 +54,8 @@
     <Compile Include="Generics\Product.cs" />
     <Compile Include="Generics\Sample.cs" />
     <Compile Include="Generics\Utilities.cs" />
+    <Compile Include="Lambda\Book.cs" />
+    <Compile Include="Lambda\BookRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
